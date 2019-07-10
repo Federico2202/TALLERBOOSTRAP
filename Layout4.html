@@ -9,26 +9,78 @@
     <style>
     
     #centro{
-        background: blue;
+        background: rgb(51, 177, 235);
         text-align: center;
         color: white;
     }
-    #cen{
+    #desaparecer{
+        color: rgb(235, 229, 229);
+    }
+    #lorem, #lorem2, #lorem3, #lorem4{
+        background: rgb(235, 229, 229);
+    }
+    #fondo{
         background: whitesmoke;
     }
-    
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    #footer{
+        text-align: center;
+    }
+    #texto{
+        text-align:left;
+    }
+  
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <div class="row" id="cen">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatum, odio commodi maxime labore totam reiciendis laudantium, quaerat perspiciatis repudiandae quae, accusamus rerum. Dolore eligendi, beatae repellat iusto veniam id.
-            <div class="row" id="centro">
-                <h1>Learn more</h1>
+    <div class="container" id="fondo">
+        <div class="row" id="lorem">
+           <div class="col-md-12">
+               <h1>Welocome to our Website</h1>
+               <h2>Look at this button! Wow, let's click on it!</h2>
+           </div>
+        </div>
+        <div class="row" >
+            <div class="col-md-1" id="lorem2">
+
+            </div>
+            <div class="col-md-10" id="centro">
+                <h2>Learn more</h2>
+            </div>
+            <div class="col-md-1" id="lorem3"></div>        
+        </div>
+
+        <div class="row" id="lorem4">
+           <h1 id="desaparecer">a</h1>
+        </div>
+
+        <div class="row" id="back">
+            <div class="col-md-4" id="texto">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel tempora cumque, consequatur ab beatae quam temporibus nemo recusandae qui minima et impedit porro soluta illo quae ea voluptates in libero!
+                <img src="http://lorempixel.com/300/200/" alt="">
+            </div>
+            <div class="col-md-4" id="texto">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel tempora cumque, consequatur ab beatae quam temporibus nemo recusandae qui minima et impedit porro soluta illo quae ea voluptates in libero!
+                <img src="http://lorempixel.com/300/200/" alt="">
+            </div>
+            <div class="col-md-4" id="texto">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel tempora cumque, consequatur ab beatae quam temporibus nemo recusandae qui minima et impedit porro soluta illo quae ea voluptates in libero!
+                <img src="http://lorempixel.com/300/200/" alt="">
             </div>
         </div>
 
+        <div class="row">
+            <div class="col-md-12 alert alert-success" id="footer">
+                Thanks for Visiting!
+            </div>
+        </div>
+        
     </div>
     
 </body>
